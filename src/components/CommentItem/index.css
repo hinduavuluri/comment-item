@@ -1,0 +1,101 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  height: 250px;
+}
+.delete-icon {
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.date {
+  font-family: roboto;
+  font-size: 12px;
+  color: #475569;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.like {
+  font-family: roboto;
+  font-size: 15px;
+  color: #475569;
+}
+.blue {
+  color: #0b69ff;
+}
+.normal {
+  color: #475569;
+}
+.start-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.letter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-width: 0px;
+  color: #dee0e3;
+  background-color: #f97316;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  font-family: roboto;
+}
+.like-icon {
+  font-size: 50px;
+}
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name {
+  font-family: roboto;
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 200;
+}
+.content {
+  font-family: roboto;
+  font-size: 15px;
+  color: #475569;
+}
